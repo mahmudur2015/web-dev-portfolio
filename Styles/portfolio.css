@@ -7,6 +7,9 @@
     "wdth" 100;
 }
 /* shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -22,11 +25,21 @@
     font-size: 20px;
     border: none;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color:#757575 ;
+}
 /* header */
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    margin-left: 30px;
 }
 
 /* Nav Styles */
@@ -54,6 +67,15 @@ nav li a{
     text-decoration: none;
     font-size: 20px;
 }
+/* main section styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
 /* banner styles */
 .banner{
     display: flex;
@@ -77,4 +99,8 @@ max-width:580px;
 }
 .banner-profile-pic{
     width: 580px;
+}
+/* about styles */
+.about{
+    border-radius:10px ;
 }
