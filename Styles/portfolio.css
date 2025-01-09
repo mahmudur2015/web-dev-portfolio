@@ -104,3 +104,12 @@ max-width:580px;
 .about{
     border-radius:10px ;
 }
+.about-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 23px;
+}
+.item-description{
+    font-weight: bold;
+}
+
